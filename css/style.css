@@ -461,10 +461,12 @@ background-blend-mode: initial;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 5px;
+  transition: transform 500ms;
 }
 
 .six .btn:hover .arrow {
   border-color: #484848;
+  transition: transform 500ms;
 }
 
 .right {
