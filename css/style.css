@@ -447,9 +447,13 @@ background-blend-mode: initial;
   background-color: #000033;
 }
 
+.btn {
+  transition: transform 500ms;
+}
+
 .six:hover .btn {
   transform: rotateY(-360deg);
-  transition: 500ms;
+  transition: transform 500ms;
 }
 
 .arrow {
