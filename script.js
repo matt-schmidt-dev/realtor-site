@@ -1,4 +1,3 @@
-
 //PARALLAX
 /*
 $(window).scroll(function() {
@@ -99,4 +98,21 @@ $('.single-item-test').slick({
   autoplaySpeed: 3000,
   arrows: false,
   dots: true,
+});
+
+//ind list page sliders
+$('.slider-for').slick({
+ slidesToShow: 1,
+ slidesToScroll: 1,
+ arrows: false,
+ fade: true,
+ asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+ slidesToShow: 3,
+ slidesToScroll: 1,
+ asNavFor: '.slider-for',
+ dots: true,
+ centerMode: true,
+ focusOnSelect: true
 });
