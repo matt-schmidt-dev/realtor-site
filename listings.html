@@ -219,6 +219,14 @@
           });
           
           marker.addListener('mouseout', function() {
+            timeoutID = setTimeout(function() {
+              if (!infoWindow.mouseover) {
+              infoWindow.close();
+              }
+              }, 400);
+            });
+          
+          marker.addListener('mouseout', function() {
             infoWindow.close(map, marker);
           });
         }
