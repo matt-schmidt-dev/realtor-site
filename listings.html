@@ -217,14 +217,8 @@
           marker.addListener('mouseover', function() {
             infoWindow.open(map, marker);
           });
-          infoWindow.addListener('mouseover', function() {
-            infoWindow.open(map, marker);
-          });
           
           marker.addListener('mouseout', function() {
-            infoWindow.close(map, marker);
-          });
-          infoWindow.addListener('mouseout', function() {
             infoWindow.close(map, marker);
           });
         }
