@@ -214,7 +214,7 @@
             content: props.content
           });
 
-          marker.addListener('click', function() {
+          marker.addListener('mouseover', function() {
             infoWindow.open(map, marker);
           });
         }
