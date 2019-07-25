@@ -563,6 +563,8 @@ background-blend-mode: initial;
   padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
+  max-width: 1250px;
+  margin: auto;
 }
 
 .counter-section {
@@ -696,6 +698,291 @@ background-blend-mode: initial;
 }
 
 
+/*********Listings Page**********/
+
+
+#nav-container-box-page {
+  width: 100%;
+  margin: 0;
+  z-index: 3;
+  transition: 0.5s;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 3px black;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.logo-image-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 35px 35px 0;
+  width: 125px;
+  height: auto;
+  transition: 500ms;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1250px;
+  margin: 25px auto;
+  color: #484848;
+}
+
+.list-page-list-map {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1250px;
+  margin: auto;
+  padding: 50px 35px;
+}
+
+.list-page-listings {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  width: 63%;
+}
+
+.lp-list-item {
+  cursor: pointer;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  overflow: hidden;
+}
+
+.lp-list-item:hover {
+background-position: center;
+background-blend-mode: initial;
+}
+
+.overlay-icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.lp-list-one {
+  background-image: url('images/home-front-2.jpg');
+}
+
+.overlay {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(250,250,250,0.75);
+  color: #484848;
+  margin: auto;
+  padding-top: 10px;
+  height: 100%;
+  width: 100%;
+  transform: translateY(185px);
+  transition: all ease-in-out 250ms;
+}
+
+.overlay h4 {
+  margin: 0;
+}
+
+.overlay p {
+ margin: 15px;
+}
+
+.lp-list-item:hover .overlay {
+  transform: translateY(125px);
+}
+
+.lp-list-two {
+  background-image: url('images/home-front-2.jpg');
+}
+
+.lp-list-three {
+  background-image: url('images/home-front-2.jpg');
+}
+
+.lp-list-four {
+  background-image: url('images/home-front-2.jpg');
+}
+
+.lp-list-five {
+  background-image: url('images/home-front-2.jpg');
+}
+
+.lp-list-six {
+  background-color: #000033;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+
+/**********List-One Page**********/
+
+.ind-list-page-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 35px;
+  max-width: 1250px;
+  margin: auto;
+}
+
+.ind-list-page-wrapper h3, h5 {
+  text-align: left;
+}
+
+.ind-list-page-listing {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 63%;
+}
+
+.list-one-img-top {
+  width: 100%;
+  height: 500px;
+  margin: 0 0 5px 0;
+  background-position: top;
+  background-size: cover;
+  /*border-color: gray;
+  border-style: solid;
+  border-width: 1px;*/
+}
+
+.list-one-img {
+  height: 150px;
+  background-position: top;
+  background-size: cover;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+.list-one-1st {
+  background-image: url('https://realestatedigital.propertiescdn.com/ListingImages/txhar/images/0/0/8844769.jpg?ts=636898827600000000');
+}
+
+.list-one-2nd {
+  background-image: url('https://realestatedigital.propertiescdn.com/ListingImages/txhar/addl_picts/0/0/8844769-8.jpg?ts=636898827600000000');
+}
+
+.list-one-3rd {
+  background-image: url('https://realestatedigital.propertiescdn.com/ListingImages/txhar/addl_picts/0/0/8844769-9.jpg?ts=636898827600000000');
+}
+
+.list-one-4th {
+  background-image: url('https://realestatedigital.propertiescdn.com/ListingImages/txhar/addl_picts/0/0/8844769-14.jpg?ts=636898827600000000');
+}
+
+.ind-list-page-details-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: whitesmoke;
+  padding: 5px;
+  margin: 10px;
+}
+
+.detail-grid-item {
+  padding: 10px;
+  border: 1px black;
+}
+
+.detail-grid-item h6 {
+  margin: 0;
+}
+
+.ind-list-page-details p {
+  margin: 10px 0;
+}
+
+.ind-list-page-details .call-to-action-ind-listings {
+  margin: 10px 0;
+}
+
+/*********sidebar**********/
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+}
+
+.sidebar-map {
+  margin: 10px auto;
+  width: 100%;
+}
+
+.sidebar-contact-form {
+  margin: 10px auto;
+}
+
+.sidebar-contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-contact-form p {
+  margin-bottom: 10px;
+}
+
+.sidebar-form-ind {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.sidebar-contact-form input, textarea {
+
+}
+
+.sidebar h3 {
+  text-align: center;
+}
+
+.sidebar p {
+  text-align: center;
+}
+
+.sidebar button {
+  margin: auto;
+}
+
+.map-marker-content-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-marker-content-div h6 {
+
+}
+
+.map-img-tiny {
+  width: 75%;
+  margin: 5px auto;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
 /********************ID********************/
 /********************Media****************/
 @media (max-width: 1250px) {}
@@ -740,6 +1027,25 @@ background-blend-mode: initial;
   .grid-portfolio-item:hover .overlay {
     transform: translateY(175px);
   }
+
+  /*****List-Template-Page*****/
+
+  .ind-list-page-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ind-list-page-listing {
+    width: 100%;
+  }
+
+  /*****Sidebar*****/
+
+  .sidebar {
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 700px) {
@@ -925,6 +1231,30 @@ background-blend-mode: initial;
   width: 100%;
   }
 
+  /*****List-Template-Page*****/
+
+  .ind-list-page-wrapper {
+    padding: 50px 15px;
+  }
+
+  .ind-list-page-listing {
+
+  }
+
+  .list-one-img-top {
+    height: 400px;
+  }
+
+  .list-one-img {
+    height: 125px;
+  }
+
+  /*****Sidebar*****/
+
+  .sidebar {
+
+  }
+
 }
 
 @media (max-width: 475px) {
@@ -956,4 +1286,19 @@ background-blend-mode: initial;
     .lower-bottom-section p {
       max-width: 90%
     }
+
+    /*****List-Template-Page*****/
+
+    .ind-list-page-wrapper {
+      padding: 50px 10px;
+    }
+
+    .list-one-img-top {
+      height: 350px;
+    }
+
+    .list-one-img {
+      height: 100px;
+    }
+
 }
