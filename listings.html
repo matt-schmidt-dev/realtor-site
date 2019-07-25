@@ -218,7 +218,7 @@
             infoWindow.open(map, marker);
           });
           marker.addListener('mouseout', function() {
-            infoWindow.close();
+            infoWindow.close(map, marker);
           });
         }
       }
