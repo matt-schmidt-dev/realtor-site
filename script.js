@@ -71,17 +71,31 @@ $(window).scroll(function() {
 
 
 //Scroll Animation for Services Section
+/*
 $(window).scroll(function() {
   if ($(document).scrollTop() > 650) {
     $('.about-des, .about-img').addClass('about-scroll');
   }
-  /*else {
+  else {
     $('.about-des, .about-img').removeClass('about-scroll');
-  }*/
+  }
+});*/
+
+//Grid Links for Front-Page
+$(".grid-portfolio-item").click(function() {
+  window.location = $(this).find("a").attr("href");
+  return false;
 });
 
 
+//Grid Links for Listings Page
+$(".lp-list-item").click(function() {
+  window.location = $(this).find("a").attr("href");
+  return false;
+});
 
+
+//Header-Image-Carousel
 $('.single-item-head').slick({
 	speed: 500,
 	fade: true,
@@ -90,6 +104,7 @@ $('.single-item-head').slick({
   autoplaySpeed: 5000,
 });
 
+//Testimonial-Carousel
 $('.single-item-test').slick({
 	speed: 500,
 	fade: false,
@@ -109,7 +124,7 @@ $('.slider-for').slick({
  asNavFor: '.slider-nav'
 });
 $('.slider-nav').slick({
- slidesToShow: 3,
+ slidesToShow: 5,
  slidesToScroll: 1,
  asNavFor: '.slider-for',
  dots: true,
