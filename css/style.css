@@ -72,7 +72,7 @@ textarea {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1250px;
+  max-width: 1500px;
   margin: 0 auto;
   padding-left: 35px;
   padding-right: 35px;
@@ -215,18 +215,14 @@ textarea {
 }
 
 .c1 {
-  background-image: url('images/home-front-1-1.png');
+  background-image: url('images/home-front-1-1.jpg');
 }
 
 .c2 {
-  background-image: url('images/home-front-1-1.png');
-}
-
-.c3 {
   background-image: url('images/home-front-4.png');
 }
 
-.c4 {
+.c3 {
   background-image: url('images/home-kitchen-1.png');
 }
 
@@ -268,13 +264,14 @@ textarea {
 
 .middle-section {
   background-color: white;
-  max-width: 1250px;
+  max-width: 1500px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  padding-top: 35px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .middle-section h1, .middle-section h3 {
@@ -309,20 +306,24 @@ textarea {
   margin: 15px;
   border-radius: 50%;
   box-shadow: 0 3px 3px black;
-  opacity: 0;
+  /*opacity: 0;
   transform: translateX(50%);
-  transition: 750ms;
+  transition: 750ms;*/
 }
 
 .about-des {
-  width: 50%;
+  width: 35%;
   margin: 15px;
-  opacity: 0;
+  /*opacity: 0;
   transform: translateX(-50%);
-  transition: 750ms;
+  transition: 750ms;*/
 }
 
 .about-des h3 {
+  text-align: left;
+}
+
+.about-des h6 {
   text-align: left;
 }
 
@@ -339,6 +340,7 @@ textarea {
   padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
+  background-color: whitesmoke;
 }
 
 .portfolio-heading {
@@ -359,18 +361,17 @@ textarea {
 .grid-portfolio {
   width: 100%;
   display: grid;
-  grid-gap: 5px;
+  grid-gap: 10px;
   margin: 25px auto auto auto;
   padding-left: 35px;
   padding-right: 35px;
   justify-content: center;
   align-content: center;
-  max-width: 1250px;
+  max-width: 1500px;
   grid-template-columns: repeat(3, 1fr);
 }
 
 .grid-portfolio-item {
-  background-color: orange;
   cursor: pointer;
   color: white;
   display: flex;
@@ -380,14 +381,10 @@ textarea {
   text-align: center;
   height: 300px;
   background-size: cover;
-  background-position: top;
+  background-position: center;
   margin: 0;
   overflow: hidden;
-}
-
-.grid-portofolio-item:hover {
-background-position: center;
-background-blend-mode: initial;
+  box-shadow: 1px 1px 3px gray;
 }
 
 .overlay-icons {
@@ -396,55 +393,60 @@ background-blend-mode: initial;
   margin: 0;
 }
 
-.one {
-  background-image: url('images/home-front-2.jpg');
-}
-
 .overlay {
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(250,250,250,0.75);
+  background-color: rgba(250,250,250,0.85);
   color: #484848;
   margin: auto;
   padding-top: 10px;
   height: 100%;
   width: 100%;
-  transform: translateY(185px);
+  transform: translateY(230px);
   transition: all ease-in-out 250ms;
 }
 
-.overlay h4 {
+.overlay h3 {
   margin: 0;
 }
 
 .overlay p {
- margin: 15px;
+ margin: 0;
+ font-size: 0.9em;
+}
+
+.overlay-icons {
+  padding: 15px 0 0 0;
 }
 
 .grid-portfolio-item:hover .overlay {
-  transform: translateY(125px);
+  transform: translateY(175px);
+}
+
+.one {
+  background-image: url('images/1546 Gardenia Drive/1546 Gardenia Drive list-1.jpg');
 }
 
 .two {
-  background-image: url('images/home-front-2.jpg');
+  background-image: url('images/1822 Millwood Drive/1822 Millwood Drive img-1.jpg');
 }
 
 .three {
-  background-image: url('images/home-front-2.jpg');
+  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-1.jpg');
 }
 
 .four {
-  background-image: url('images/home-front-2.jpg');
+  background-image: url('images/4402 Fallbrook Drive/4402 Fallbrook Drive img-1.jpg');
 }
 
 .five {
-  background-image: url('images/home-front-2.jpg');
+  background-image: url('images/9415 Stone Porch Lane/9415 Stone Porch Lane img-1.jpg');
 }
 
 .six {
-  background-color: #000033;
+  background-image: linear-gradient(to bottom right, #000333, #000303);
 }
 
 .btn {
@@ -482,10 +484,15 @@ background-blend-mode: initial;
   display: inline-block;
 }
 
+.six a:hover {
+  color: black !important;
+}
+
 .more-listings-div {
   text-transform: uppercase;
 }
 
+/***
 .testimonial-section-wrapper {
   background-color: whitesmoke;
   display: flex;
@@ -554,6 +561,7 @@ background-blend-mode: initial;
 .testimonials {
 
 }
+***/
 
 .counter-section-wrapper {
   display: flex;
@@ -563,7 +571,7 @@ background-blend-mode: initial;
   padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
-  max-width: 1250px;
+  max-width: 1500px;
   margin: auto;
 }
 
@@ -571,7 +579,7 @@ background-blend-mode: initial;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 1500px;
   padding-top: 15px;
 }
 
@@ -639,7 +647,7 @@ background-blend-mode: initial;
 }
 
 .get-in-touch {
-  background-color: #000033;
+  background-image: linear-gradient(to bottom right, #000333, #000303);
   width: 50%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -737,7 +745,7 @@ background-blend-mode: initial;
 .list-page-list-map {
   display: flex;
   justify-content: space-between;
-  max-width: 1250px;
+  max-width: 1500px;
   margin: auto;
   padding: 50px 35px;
 }
@@ -745,7 +753,7 @@ background-blend-mode: initial;
 .list-page-listings {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 5px;
+  grid-gap: 10px;
   width: 63%;
 }
 
@@ -762,6 +770,7 @@ background-blend-mode: initial;
   background-size: cover;
   background-position: top;
   overflow: hidden;
+  box-shadow: 1px 1px 3px black;
 }
 
 .lp-list-item:hover {
@@ -769,70 +778,76 @@ background-position: center;
 background-blend-mode: initial;
 }
 
-.overlay-icons {
-  display: flex;
-  justify-content: space-around;
-  margin: 0;
-}
-
-.lp-list-one {
-  background-image: url('images/home-front-2.jpg');
-}
-
-.overlay {
+.overlay-listings {
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(250,250,250,0.75);
+  background-color: rgba(250,250,250,0.85);
   color: #484848;
   margin: auto;
   padding-top: 10px;
   height: 100%;
   width: 100%;
-  transform: translateY(185px);
+  transform: translateY(175px);
   transition: all ease-in-out 250ms;
 }
 
-.overlay h4 {
+.overlay-listings h5 {
+  padding: 5px;
   margin: 0;
 }
 
-.overlay p {
- margin: 15px;
+.overlay-listings p {
+ margin: 0;
+ font-size: 0.9em;
 }
 
-.lp-list-item:hover .overlay {
-  transform: translateY(125px);
+.overlay-icons-listings {
+  padding: 15px 0 0 0;
+}
+
+.lp-list-item:hover .overlay-listings {
+  transform: translateY(120px);
+}
+
+.lp-list-one {
+  background-image: url('images/1546 Gardenia Drive/1546 Gardenia Drive list-1.jpg');
 }
 
 .lp-list-two {
-  background-image: url('images/home-front-2.jpg');
+  background-image: url('images/1822 Millwood Drive/1822 Millwood Drive img-1.jpg');
 }
 
 .lp-list-three {
-  background-image: url('images/home-front-2.jpg');
+  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-1.jpg');
 }
 
 .lp-list-four {
-  background-image: url('images/home-front-2.jpg');
+  background-image: url('images/4402 Fallbrook Drive/4402 Fallbrook Drive img-1.jpg');
 }
 
 .lp-list-five {
-  background-image: url('images/home-front-2.jpg');
+  background-image: url('images/9415 Stone Porch Lane/9415 Stone Porch Lane img-1.jpg');
 }
 
 .lp-list-six {
-  background-color: #000033;
+  background-image: url('images/5221 Viking Drive/5221 Viking Drive img-1.jpg');
+}
+
+.lp-list-seven {
+  background-image: url('images/9223 Chester Park Drive/9223 Chester Park Drive img-1.jpg');
+}
+
+.lp-list-eight {
+  background-image: url('images/5056 Lido Lane/5056 Lido Lane img-1.jpg');
 }
 
 #map {
   height: 400px;
   width: 100%;
 }
-
-
-/**********List-One Page**********/
+/**********List-Template Page**********/
 
 .ind-list-page-wrapper {
   display: flex;
@@ -842,7 +857,7 @@ background-blend-mode: initial;
   margin: auto;
 }
 
-.ind-list-page-wrapper h3, h5 {
+.ind-list-page-wrapper h3, .ind-list-page-wrapper h4, .ind-list-page-wrapper h5, .ind-list-page-wrapper h6, .ind-list-page-wrapper p {
   text-align: left;
 }
 
@@ -854,7 +869,7 @@ background-blend-mode: initial;
   width: 63%;
 }
 
-.list-one-img-top {
+.list-img-top {
   width: 100%;
   height: 500px;
   margin: 0 0 5px 0;
@@ -865,8 +880,8 @@ background-blend-mode: initial;
   border-width: 1px;*/
 }
 
-.list-one-img {
-  height: 150px;
+.list-img {
+  height: 100px;
   background-position: top;
   background-size: cover;
   border-style: solid;
@@ -874,28 +889,12 @@ background-blend-mode: initial;
   border-width: 1px;
 }
 
-.list-one-1st {
-  background-image: url('https://realestatedigital.propertiescdn.com/ListingImages/txhar/images/0/0/8844769.jpg?ts=636898827600000000');
-}
-
-.list-one-2nd {
-  background-image: url('https://realestatedigital.propertiescdn.com/ListingImages/txhar/addl_picts/0/0/8844769-8.jpg?ts=636898827600000000');
-}
-
-.list-one-3rd {
-  background-image: url('https://realestatedigital.propertiescdn.com/ListingImages/txhar/addl_picts/0/0/8844769-9.jpg?ts=636898827600000000');
-}
-
-.list-one-4th {
-  background-image: url('https://realestatedigital.propertiescdn.com/ListingImages/txhar/addl_picts/0/0/8844769-14.jpg?ts=636898827600000000');
-}
-
 .ind-list-page-details-box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   background-color: whitesmoke;
   padding: 5px;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .detail-grid-item {
@@ -913,6 +912,348 @@ background-blend-mode: initial;
 
 .ind-list-page-details .call-to-action-ind-listings {
   margin: 10px 0;
+}
+
+
+
+/*********List-One-Page**********/
+
+
+/********************************
+
+Note:
+I need to Javascript that will grab image from folder based on consecutive position and create a div for the imgages to be places within the carousel.
+
+********************************/
+
+.list-one-1st {
+  background-image: url('images/1546 Gardenia Drive/1546 Gardenia Drive list-1.jpg');
+}
+
+.list-one-2nd {
+  background-image: url('images/1546 Gardenia Drive/1546 Gardenia Drive img-3.jpg');
+}
+
+.list-one-3rd {
+  background-image: url('images/1546 Gardenia Drive/1546 Gardenia Drive img-4.jpg');
+}
+
+.list-one-4th {
+  background-image: url('images/1546 Gardenia Drive/1546 Gardenia Drive img-5.jpg');
+}
+
+.list-one-5th {
+  background-image: url('images/1546 Gardenia Drive/1546 Gardenia Drive img-6.jpg');
+}
+
+.list-one-6th {
+  background-image: url('images/1546 Gardenia Drive/1546 Gardenia Drive img-2.jpg');
+}
+
+
+/*****List-Two Page*****/
+
+.list-two-1st {
+  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-1.jpg');
+}
+
+.list-two-2nd {
+  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive  img-5.jpg');
+}
+
+.list-two-3rd {
+  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive  img-4.jpg');
+}
+
+.list-two-4th {
+  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-2.jpg');
+}
+
+.list-two-5th {
+  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-3.jpg');
+}
+
+.list-two-6th {
+  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-6.jpg');
+}
+
+.list-two-7th {
+  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-7.jpg');
+}
+
+.list-two-8th {
+  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-8.jpg');
+}
+
+.list-two-9th {
+  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-9.jpg');
+}
+
+.list-two-10th {
+  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-15.jpg');
+}
+
+.list-two-11th {
+  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-10.jpg');
+}
+
+.list-two-12th {
+  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-13.jpg');
+}
+
+.list-two-13th {
+  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-11.jpg');
+}
+
+.list-two-14th {
+  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-12.jpg');
+}
+.list-two-15th {
+  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-16.jpg');
+}
+
+/*****List-Three Page*****/
+
+.list-three-1st {
+  background-image: ;
+}
+
+.list-three-2nd {
+  background-image: ;
+}
+
+.list-three-3rd {
+  background-image: ;
+}
+
+.list-three-4th {
+  background-image: ;
+}
+
+.list-three-5th {
+  background-image: ;
+}
+
+.list-three-6th {
+  background-image: ;
+}
+
+.list-three-7th {
+  background-image: ;
+}
+
+.list-three-8th {
+  background-image: ;
+}
+
+.list-three-9th {
+  background-image: ;
+}
+
+.list-three-10th {
+  background-image: ;
+}
+
+.list-three-11th {
+  background-image: ;
+}
+
+.list-three-12th {
+  background-image: ;
+}
+
+.list-three-13th {
+  background-image: ;
+}
+
+.list-three-14th {
+  background-image: ;
+}
+.list-three-15th {
+  background-image: ;
+}
+
+/*****List-Four Page*****/
+
+.list-one-1st {
+  background-image: ;
+}
+
+.list-one-2nd {
+  background-image: ;
+}
+
+.list-one-3rd {
+  background-image: ;
+}
+
+.list-one-4th {
+  background-image: ;
+}
+
+.list-one-5th {
+  background-image: ;
+}
+
+.list-one-6th {
+  background-image: ;
+}
+
+.list-one-7th {
+  background-image: ;
+}
+
+.list-one-8th {
+  background-image: ;
+}
+
+.list-one-9th {
+  background-image: ;
+}
+
+.list-one-10th {
+  background-image: ;
+}
+
+.list-one-11th {
+  background-image: ;
+}
+
+.list-one-12th {
+  background-image: ;
+}
+
+.list-one-13th {
+  background-image: ;
+}
+
+.list-one-14th {
+  background-image: ;
+}
+.list-one-15th {
+  background-image: ;
+}
+
+/*****List-Five Page*****/
+
+.list-one-1st {
+  background-image: ;
+}
+
+.list-one-2nd {
+  background-image: ;
+}
+
+.list-one-3rd {
+  background-image: ;
+}
+
+.list-one-4th {
+  background-image: ;
+}
+
+.list-one-5th {
+  background-image: ;
+}
+
+.list-one-6th {
+  background-image: ;
+}
+
+.list-one-7th {
+  background-image: ;
+}
+
+.list-one-8th {
+  background-image: ;
+}
+
+.list-one-9th {
+  background-image: ;
+}
+
+.list-one-10th {
+  background-image: ;
+}
+
+.list-one-11th {
+  background-image: ;
+}
+
+.list-one-12th {
+  background-image: ;
+}
+
+.list-one-13th {
+  background-image: ;
+}
+
+.list-one-14th {
+  background-image: ;
+}
+.list-one-15th {
+  background-image: ;
+}
+
+/*****List-Six Page*****/
+
+.list-one-1st {
+  background-image: ;
+}
+
+.list-one-2nd {
+  background-image: ;
+}
+
+.list-one-3rd {
+  background-image: ;
+}
+
+.list-one-4th {
+  background-image: ;
+}
+
+.list-one-5th {
+  background-image: ;
+}
+
+.list-one-6th {
+  background-image: ;
+}
+
+.list-one-7th {
+  background-image: ;
+}
+
+.list-one-8th {
+  background-image: ;
+}
+
+.list-one-9th {
+  background-image: ;
+}
+
+.list-one-10th {
+  background-image: ;
+}
+
+.list-one-11th {
+  background-image: ;
+}
+
+.list-one-12th {
+  background-image: ;
+}
+
+.list-one-13th {
+  background-image: ;
+}
+
+.list-one-14th {
+  background-image: ;
+}
+.list-one-15th {
+  background-image: ;
 }
 
 /*********sidebar**********/
@@ -966,26 +1307,65 @@ background-blend-mode: initial;
 
 .map-marker-content-div {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.map-marker-content-div h6 {
+.map-marker-content-div h5 {
+  text-align: left;
+  font-size: 1.2em;
+  margin: 0 0 5px 0;
+  color: black;
+}
 
+.map-marker-content-div h6 {
+  text-align: left;
+  font-size: 1em;
+  margin: 0;
+  color: black;
+}
+
+.map-marker-content-div:hover h5 {
+  color: blue;
+}
+
+.map-marker-content-div:hover h6 {
+  color: blue;
 }
 
 .map-img-tiny {
-  width: 75%;
-  margin: 5px auto;
+  width: 100px;
+  height: auto;
+  margin: 5px 5px 5px 0;
   border-color: black;
   border-width: 1px;
   border-style: solid;
 }
 
+.map-info {
+
+}
+
 /********************ID********************/
 /********************Media****************/
-@media (max-width: 1250px) {}
+@media (max-width: 1250px) {
+
+  .list-page-listings {
+    grid-template-columns: repeat(2, 1fr);
+    width: 63%;
+  }
+
+  /*********List-Template-Page**********/
+
+  .list-img-top {
+    height: 400px;
+  }
+
+  .list-img {
+    height: 80px;
+  }
+
+}
 
 @media (max-width: 1000px) {
 
@@ -1016,17 +1396,37 @@ background-blend-mode: initial;
     width: 85%;
   }
 
-  .grid-portfolio-item {
-    height: 350px;
+  /*****Listings-Page*****/
+
+  .list-page-list-map {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    margin: auto;
+    padding: 50px 35px;
   }
 
-  .overlay {
-    transform: translateY(235px);
+  .list-page-listings {
+    width: 100%;
   }
 
-  .grid-portfolio-item:hover .overlay {
-    transform: translateY(175px);
+  .lp-list-item {
+    height: 250px;
   }
+
+  .overlay-listings {
+    transform: translateY(140px);
+  }
+
+  .overlay-icons-listings {
+    padding: 10px 0 0 0;
+  }
+
+  .lp-list-item:hover .overlay-listings {
+    transform: translateY(90px);
+  }
+
 
   /*****List-Template-Page*****/
 
@@ -1037,13 +1437,15 @@ background-blend-mode: initial;
   }
 
   .ind-list-page-listing {
-    width: 100%;
+    width: 85%;
   }
+
 
   /*****Sidebar*****/
 
   .sidebar {
-    width: 100%;
+    width: 85%;
+    padding-top: 50px;
   }
 
 }
@@ -1174,15 +1576,15 @@ background-blend-mode: initial;
 }
 
   .grid-portfolio-item {
-    height: 425px;
+    height: 375px;
   }
 
   .overlay {
-    transform: translateY(310px);
+    transform: translateY(305px);
   }
 
   .grid-portfolio-item:hover .overlay {
-    transform: translateY(250px);
+    transform: translateY(245px);
   }
 
   .testimonial-section {
@@ -1231,6 +1633,30 @@ background-blend-mode: initial;
   width: 100%;
   }
 
+
+  /*****Listings-Page*****/
+
+  .list-page-list-map {
+    padding: 50px 15px;
+  }
+
+  .list-page-listings {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+
+  .lp-list-item {
+    height: 350px;
+  }
+
+  .overlay-listings {
+    transform: translateY(280px);
+  }
+
+  .lp-list-item:hover .overlay-listings {
+    transform: translateY(230px);
+  }
+
   /*****List-Template-Page*****/
 
   .ind-list-page-wrapper {
@@ -1238,21 +1664,22 @@ background-blend-mode: initial;
   }
 
   .ind-list-page-listing {
-
+    width: 100%;
   }
 
-  .list-one-img-top {
+  .list-img-top {
     height: 400px;
   }
 
-  .list-one-img {
-    height: 125px;
+  .list-img {
+    height: 80px;
   }
 
   /*****Sidebar*****/
 
   .sidebar {
-
+    width: 100%;
+    padding-top: 50px;
   }
 
 }
@@ -1272,20 +1699,40 @@ background-blend-mode: initial;
   }
 
   .grid-portfolio-item {
-      height: 350px;
+      height: 250px;
     }
 
     .overlay {
-      transform: translateY(235px);
+      transform: translateY(180px);
     }
 
     .grid-portfolio-item:hover .overlay {
-      transform: translateY(175px);
+      transform: translateY(120px);
     }
 
     .lower-bottom-section p {
       max-width: 90%
     }
+
+    /*****Listings-Page*****/
+
+    .list-page-list-map {
+      padding: 50px 10px;
+    }
+
+    .lp-list-item {
+      height: 250px;
+    }
+
+    .overlay-listings {
+      transform: translateY(175px);
+    }
+
+    .lp-list-item:hover .overlay-listings {
+      transform: translateY(125px);
+    }
+
+
 
     /*****List-Template-Page*****/
 
@@ -1293,12 +1740,12 @@ background-blend-mode: initial;
       padding: 50px 10px;
     }
 
-    .list-one-img-top {
-      height: 350px;
+    .list-img-top {
+      height: 250px;
     }
 
-    .list-one-img {
-      height: 100px;
+    .list-img {
+      height: 65px;
     }
 
 }
