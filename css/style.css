@@ -426,23 +426,23 @@ textarea {
 }
 
 .one {
-  background-image: url('images/1546 Gardenia Drive/1546 Gardenia Drive list-1.jpg');
+  background-image: url('images/Gardenia-img-1.jpg');
 }
 
 .two {
-  background-image: url('images/1822 Millwood Drive/1822 Millwood Drive img-1.jpg');
+  background-image: url('images/Millwood-img-1.jpg');
 }
 
 .three {
-  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-1.jpg');
+  background-image: url('images/Willowby-img-1.jpg');
 }
 
 .four {
-  background-image: url('images/4402 Fallbrook Drive/4402 Fallbrook Drive img-1.jpg');
+  background-image: url('images/Fallbrook-img-1.jpg');
 }
 
 .five {
-  background-image: url('images/9415 Stone Porch Lane/9415 Stone Porch Lane img-1.jpg');
+  background-image: url('images/Stone-img-1.jpg');
 }
 
 .six {
@@ -812,35 +812,35 @@ background-blend-mode: initial;
 }
 
 .lp-list-one {
-  background-image: url('images/1546 Gardenia Drive/1546 Gardenia Drive list-1.jpg');
+  background-image: url('images/Gardenia-img-1.jpg');
 }
 
 .lp-list-two {
-  background-image: url('images/1822 Millwood Drive/1822 Millwood Drive img-1.jpg');
+  background-image: url('images/Millwood-img-1.jpg');
 }
 
 .lp-list-three {
-  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-1.jpg');
+  background-image: url('images/Willowby-img-1.jpg');
 }
 
 .lp-list-four {
-  background-image: url('images/4402 Fallbrook Drive/4402 Fallbrook Drive img-1.jpg');
+  background-image: url('images/Fallbrook-img-1.jpg');
 }
 
 .lp-list-five {
-  background-image: url('images/9415 Stone Porch Lane/9415 Stone Porch Lane img-1.jpg');
+  background-image: url('images/Stone-img-1.jpg');
 }
 
 .lp-list-six {
-  background-image: url('images/5221 Viking Drive/5221 Viking Drive img-1.jpg');
+  background-image: url('images/Viking-img-1.jpg');
 }
 
 .lp-list-seven {
-  background-image: url('images/9223 Chester Park Drive/9223 Chester Park Drive img-1.jpg');
+  background-image: url('images/Chester-img-1.jpg');
 }
 
 .lp-list-eight {
-  background-image: url('images/5056 Lido Lane/5056 Lido Lane img-1.jpg');
+  background-image: url('images/Lido-img-1.jpg');
 }
 
 #map {
@@ -927,89 +927,89 @@ I need to Javascript that will grab image from folder based on consecutive posit
 ********************************/
 
 .list-one-1st {
-  background-image: url('images/1546 Gardenia Drive/1546 Gardenia Drive list-1.jpg');
+  background-image: url('images/Gardenia-img-1.jpg');
 }
 
 .list-one-2nd {
-  background-image: url('images/1546 Gardenia Drive/1546 Gardenia Drive img-3.jpg');
+  background-image: url('images/Gardenia-img-2.jpg');
 }
 
 .list-one-3rd {
-  background-image: url('images/1546 Gardenia Drive/1546 Gardenia Drive img-4.jpg');
+  background-image: url('images/Gardenia-img-3.jpg');
 }
 
 .list-one-4th {
-  background-image: url('images/1546 Gardenia Drive/1546 Gardenia Drive img-5.jpg');
+  background-image: url('images/Gardenia-img-4.jpg');
 }
 
 .list-one-5th {
-  background-image: url('images/1546 Gardenia Drive/1546 Gardenia Drive img-6.jpg');
+  background-image: url('images/Gardenia-img-5.jpg');
 }
 
 .list-one-6th {
-  background-image: url('images/1546 Gardenia Drive/1546 Gardenia Drive img-2.jpg');
+  background-image: url('images/Gardenia-img-6.jpg');
 }
 
 
 /*****List-Two Page*****/
 
 .list-two-1st {
-  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-1.jpg');
+  background-image: url('images/Willowby-img-1.jpg');
 }
 
 .list-two-2nd {
-  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive  img-5.jpg');
+  background-image: url('images/1815 Willowby Drive  img-5.jpg');
 }
 
 .list-two-3rd {
-  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive  img-4.jpg');
+  background-image: url('images/1815 Willowby Drive  img-4.jpg');
 }
 
 .list-two-4th {
-  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-2.jpg');
+  background-image: url('images/1815 Willowby Drive img-2.jpg');
 }
 
 .list-two-5th {
-  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-3.jpg');
+  background-image: url('images/1815 Willowby Drive img-3.jpg');
 }
 
 .list-two-6th {
-  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-6.jpg');
+  background-image: url('images/1815 Willowby Drive img-6.jpg');
 }
 
 .list-two-7th {
-  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-7.jpg');
+  background-image: url('images/1815 Willowby Drive img-7.jpg');
 }
 
 .list-two-8th {
-  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-8.jpg');
+  background-image: url('images/1815 Willowby Drive img-8.jpg');
 }
 
 .list-two-9th {
-  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-9.jpg');
+  background-image: url('images/1815 Willowby Drive img-9.jpg');
 }
 
 .list-two-10th {
-  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-15.jpg');
+  background-image: url('images/1815 Willowby Drive img-15.jpg');
 }
 
 .list-two-11th {
-  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-10.jpg');
+  background-image: url('images/1815 Willowby Drive img-10.jpg');
 }
 
 .list-two-12th {
-  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-13.jpg');
+  background-image: url('images/1815 Willowby Drive img-13.jpg');
 }
 
 .list-two-13th {
-  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-11.jpg');
+  background-image: url('images/1815 Willowby Drive img-11.jpg');
 }
 
 .list-two-14th {
-  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-12.jpg');
+  background-image: url('images/1815 Willowby Drive img-12.jpg');
 }
 .list-two-15th {
-  background-image: url('images/1815 Willowby Drive/1815 Willowby Drive img-16.jpg');
+  background-image: url('images/1815 Willowby Drive img-16.jpg');
 }
 
 /*****List-Three Page*****/
@@ -1413,18 +1413,6 @@ I need to Javascript that will grab image from folder based on consecutive posit
 
   .lp-list-item {
     height: 250px;
-  }
-
-  .overlay-listings {
-    transform: translateY(140px);
-  }
-
-  .overlay-icons-listings {
-    padding: 10px 0 0 0;
-  }
-
-  .lp-list-item:hover .overlay-listings {
-    transform: translateY(90px);
   }
 
 
