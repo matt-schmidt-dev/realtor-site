@@ -41,14 +41,14 @@
             <img class="logo-image-page" src="images/jcsch-logo.png" alt="Liberty_Talks_Podcast_Logo">
           </a>
           <ul class="nav-ul-list">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="ind-nav-link" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
               <a class="ind-nav-link" href="about.html">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="ind-nav-link" href="listings.html">LISTINGS</a>
+              <a class="ind-nav-link active" href="listings.html">LISTINGS</a>
             </li>
             <li class="nav-item">
               <a class="ind-nav-link scroll" href="#contact">CONTACT</a>
@@ -76,7 +76,7 @@
         </div>
         <div class="lp-list-item lp-list-two">
           <div class="overlay-listings">
-            <h5>1822 Millwood Drive</h5>
+            <h5>1815 Willowby Drive</h5>
             <p class="overlay-para">4-Bed | 2-Bath | 2500 sq-ft</p>
             <div class="overlay-icons-listings">
               <a class="btn btn-outline-dark" href="list-two.html" role="button">LEARN MORE</a>
@@ -85,7 +85,7 @@
         </div>
         <div class="lp-list-item lp-list-three">
           <div class="overlay-listings">
-            <h5>1815 Willowby Drive</h5>
+            <h5>1822 Millwood Drive</h5>
             <p class="overlay-para">4-Bed | 2-Bath | 2500 sq-ft</p>
             <div class="overlay-icons-listings">
               <a class="btn btn-outline-dark" href="list-three.html" role="button">LEARN MORE</a>
@@ -121,8 +121,8 @@
         </div>
         <div class="lp-list-item lp-list-seven">
           <div class="overlay-listings">
-            <h5>9223 Chester Park Drive</h5>
-            <p class="overlay-para">4-Bed | 2-Bath | 2500 sq-ft</p>
+            <h5>2207 Brimberry Street</h5>
+            <p class="overlay-para">2-Bed | 1-Bath | 1206 sq-ft</p>
             <div class="overlay-icons-listings">
               <a class="btn btn-outline-dark" href="list-seven.html" role="button">LEARN MORE</a>
             </div>
@@ -208,114 +208,19 @@
     </div>
   </div>
 
-  <script>
-    //Google Map Listsings
-    function initMap() {
-
-      // Map options
-      var options = {
-        center: {
-          lat: 29.834539,
-          lng: -95.469543
-        },
-        zoom: 11
-      }
-
-      // New Map
-      var map = new google.maps.Map(document.getElementById('map'), options);
 
 
-      // Array of Markers
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-      var markers = [{
-        coords: {
-          lat: 29.826670,
-          lng: -95.440063
-        },
-        content: '<a href="list-one.html"><div class="map-marker-content-div"><img class="map-img-tiny" src="css/images/Gardenia-img-1.jpg" alt=""/><div class="map-info"><h5>$1,025,000</h5><h6>4000sq-ft<br>4-Bed<br>3.5-Bath<br></h6></div></div><a/>'
-      }, {
-        coords: {
-          lat: 29.802740,
-          lng: -95.439810
-        },
-        content: '<a href="list-two.html"><div class="map-marker-content-div"><img class="map-img-tiny" src="css/images/Millwood-img-1.jpg" alt=""/><div class="map-info"><h5>$535,000</h5><h6>1848sq-ft<br>3-Bed<br>2-Bath<br></h6></div></div><a/>'
-      }, {
-        coords: {
-          lat: 29.800940,
-          lng: -95.432620
-        },
-        content: '<a href="list-three.html"><div class="map-marker-content-div"><img class="map-img-tiny" src="css/images/Willowby-img-1.jpg" alt=""/><div class="map-info"><h5>$435,000</h5><h6>4000sq-ft<br>3-Bed<br>2-Bath<br></h6></div></div><a/>'
-      }, {
-        coords: {
-          lat: 29.837339,
-          lng: -95.449348
-        },
-        content: '<a href="list-four.html"><div class="map-marker-content-div"><img class="map-img-tiny" src="css/images/Fallbrook-img-1.jpg" alt=""/><div class="map-info"><h5>$419,900</h5><h6>4000sq-ft<br>3-Bed<br>2-Bath<br></h6></div></div><a/>'
-      }, {
-        coords: {
-          lat: 29.903530,
-          lng: -95.562202
-        },
-        content: '<a href="list-five.html"><div class="map-marker-content-div"><img class="map-img-tiny" src="css/images/Stone-img-1.jpg" alt=""/><div class="map-info"><h5>$379,000</h5><h6>1737sq-ft<br>4-Bed<br>3.5-Bath<br></h6></div></div><a/>'
-      }, {
-        coords: {
-          lat: 29.834539,
-          lng: -95.469543
-        },
-        content: '<a href="list-six.html"><div class="map-marker-content-div"><img class="map-img-tiny" src="css/images/Viking-img-1.jpg" alt=""/><div class="map-info"><h5>$269,000</h5><h6>1414sq-ft<br>3-Bed<br>1.5-Bath<br></h6></div></div><a/>'
-      }, {
-        coords: {
-          lat: 29.907460,
-          lng: -95.567670
-        },
-        content: '<a href="list-seven.html"><div class="map-marker-content-div"><img class="map-img-tiny" src="css/images/Chester-img-1.jpg" alt=""/><div class="map-info"><h5>$379,000</h5><h6>1737sq-ft<br>4-Bed<br>2-Bath<br></h6></div></div><a/>'
-      }, {
-        coords: {
-          lat: 29.833490,
-          lng: -95.466460
-        },
-        content: '<a href="list-eight.html"><div class="map-marker-content-div"><img class="map-img-tiny" src="css/images/Lido-img-1.jpg" alt=""/><div class="map-info"><h5>$269,000</h5><h6>1414sq-ft<br>3-Bed<br>1.5-Bath<br></h6></div></div><a/>'
-      }]
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
-      // Loop Through markers
-      for (var i = 0; i < markers.length; i++) {
-        //Add Marker
-        addMarker(markers[i]);
-      }
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
 
-      // Add Marker Function
-      function addMarker(props) {
-        var marker = new google.maps.Marker({
-          position: props.coords,
-          map: map,
-        });
+    <script src="script.js"></script>
 
-        if (props.content) {
-
-          // Add Info Window
-          var infoWindow = new google.maps.InfoWindow({
-            content: props.content
-          });
-
-          marker.addListener('click', function() {
-            infoWindow.open(map, marker);
-          });
-        }
-      }
-    }
-  </script>
-
-
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqQV6MF7YClV8AC7_IpD9SVDYq18hWv1o&callback=initMap" async defer></script>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
-  <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqQV6MF7YClV8AC7_IpD9SVDYq18hWv1o&callback=initMap" async defer></script>
 
 </body>
 
